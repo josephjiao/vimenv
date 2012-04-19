@@ -28,7 +28,7 @@ def init
     end
 
     puts "Symlinking #{orig} to #{target}"
-    FileUtils.symlink(orig, target, force: true)
+    FileUtils.symlink(orig, target, force=true)
   end
 end
 
@@ -95,5 +95,3 @@ if ARGV.empty?
 else
   opts.parse(*ARGV)
 end
-
-# vim: ai:et:ts=2:sw=2:sts=2:tw=78:ft=ruby
