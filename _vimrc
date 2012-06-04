@@ -236,8 +236,8 @@ nmap gF <C-W>f
 let tlist_txt_settings='txt;c:content;f:figures;t:tables'
 au BUfRead,BufNewFile *.txt setlocal ft=txt
 
-colorscheme wombat256mod
 set cursorline
+colorscheme wombat256mod
 
 set t_Co=256
 let python_highlight_all = 1
@@ -245,3 +245,9 @@ let python_highlight_all = 1
 if has('mouse')
     set mouse=a
 endif
+
+
+" reload .vimrc
+autocmd! BufWritePost vimrc source ~/.vimrc
+
+set grepprg=grep\ -nH
