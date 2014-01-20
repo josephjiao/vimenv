@@ -1,0 +1,1 @@
+mark.vba: call delete('/root/.vim/autoload/mark.vim')|call delete('/root/.vim/plugin/mark.vim')|call delete('/root/.vim/doc/mark.txt')

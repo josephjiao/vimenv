@@ -1,0 +1,5 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =3
+let g:netrw_dirhist_1='/root/disk2/download/twisted-intro/inline-callbacks'
+let g:netrw_dirhist_2='/root/tmp/testing/.git/hooks'
+let g:netrw_dirhist_3='/etc/stunnel'

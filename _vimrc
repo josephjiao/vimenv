@@ -81,6 +81,9 @@ set tags=./tags,tags;
  " to keep the cursor centered in the window
  " set scrolloff=999
  " set sidescrolloff=999
+ 
+" 将输入的命令显示出来，便于查看当前输入的信息
+set showcmd
 
 set showmatch
 " set time to 0.5 second
@@ -251,3 +254,7 @@ endif
 autocmd! BufWritePost vimrc source ~/.vimrc
 
 set grepprg=grep\ -nH
+
+" ident guid
+let g:indent_guides_guide_size=1
+"let g:indent_guides_auto_colors = 0
